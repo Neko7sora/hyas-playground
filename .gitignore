@@ -12,7 +12,6 @@ Thumbs.db
 node_modules
 public
 resources
-.netlify
 .hugo_build.lock
 
 .yarn
