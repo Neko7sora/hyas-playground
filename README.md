@@ -1,8 +1,8 @@
 依存関係を最新バージョンにした
 
-Netlify関係のものを削除した
+Netlify 関係のものを削除した
 
-GitHub Actionsでビルドできるようにした
+GitHub Actions でビルドできるようにした
 
 不要なファイルを削除した
 
