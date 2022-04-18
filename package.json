@@ -57,7 +57,7 @@
     "purgecss-whitelister": "2.4.0",
     "quicklink": "2.2.0",
     "shx": "0.3.4",
-    "stylelint": "14.7.0",
+    "stylelint": "14.7.1",
     "stylelint-config-standard-scss": "3.0.0"
   },
   "otherDependencies": {
