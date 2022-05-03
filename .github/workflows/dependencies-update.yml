@@ -32,9 +32,6 @@ jobs:
         shell: bash
         continue-on-error: true
         run: |
-          git add .
-          git commit -m "Update dependencies" -a
-          git pull
           hub push
           hub pull-request -b develop -m "Update dependencies"
         env:
