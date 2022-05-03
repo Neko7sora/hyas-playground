@@ -32,6 +32,7 @@ jobs:
         shell: bash
         continue-on-error: true
         run: |
-          hub pull-request -b master -m "Update dependencies" -h dependencies-update
+          hub add .
+          hub pull-request -b "master" -m "Update dependencies" -h "update-dependencies"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
